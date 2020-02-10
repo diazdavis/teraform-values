@@ -33,7 +33,7 @@ echo $bastion_instance_type
 export bastion_kp_sudo_pub_key=${bastion_kp_sudo_pub_key}
 echo $bastion_kp_sudo_pub_key
 
-export bastion_kp_developer_pub_key= {bastion_kp_developer_pub_key}
+export bastion_kp_developer_pub_key=${bastion_kp_developer_pub_key}
 echo $bastion_kp_developer_pub_key
 
 export bastion_ssh_port=${bastion_ssh_port}
