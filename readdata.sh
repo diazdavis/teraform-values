@@ -1,9 +1,9 @@
 #!/bin/sh
 
 export region=${region}
-echo $region
+echo ${region}
 
 export environment= ${environment}
-echo environment
+echo ${environment}
 
 
