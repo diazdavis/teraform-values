@@ -1,7 +1,6 @@
 #!/bin/sh
 
-region= region
-export $region
+export region= $region
 echo $region
 
 environment= $environment
