@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export region= region
-echo $region
+printenv $region
 
 environment= $environment
 export environment
