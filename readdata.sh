@@ -1,6 +1,6 @@
 #!/bin/sh
 
-region= $region
+region= region
 export $region
 echo $region
 
