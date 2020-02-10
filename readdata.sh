@@ -3,7 +3,7 @@
 export region=${region}
 printenv region
 
-export environment= ${environment}
+export environment=${environment}
 printenv environment
 
 
