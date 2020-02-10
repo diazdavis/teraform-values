@@ -5,11 +5,11 @@ echo $region
 
 environment= $environment
 export environment
-echo $environment
+printenv $environment
 
 project= $project
 export project
-echo $project
+printenv $project
 
 vpc_cidr= $vpc_cidr
 export vpc_cidr
