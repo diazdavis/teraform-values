@@ -2,15 +2,15 @@
 
 region= $region
 export region
-printenv region
+echo region
 
 environment= $environment
 export environment
-printenv environment
+echo environment
 
 project= $project
 export project
-printenv project
+echo project
 
 vpc_cidr= $vpc_cidr
 export vpc_cidr
