@@ -1,4 +1,4 @@
 #!/bin/sh
 
 orange= $orange
-echo orange
+echo $orange
