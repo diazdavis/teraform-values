@@ -3,4 +3,4 @@
 orange= $orange
 export orange
 git log -1
-echo $orange
+export
