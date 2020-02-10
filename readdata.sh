@@ -1,7 +1,7 @@
 #!/bin/sh
 
 export region=${region}
-printenv region
+printenv $region
 
 export environment= ${environment}
 printenv $environment
