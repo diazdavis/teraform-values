@@ -15,10 +15,10 @@ printenv vpc_cidr
 export nat_count= ${nat_count}
 printenv nat_count
 
-export public_subnet_cidr= [${public_subnet_cidr}]
+export public_subnet_cidr= (declare -p public_subnet_cidr)
 printenv public_subnet_cidr
 
-export private_subnet_cidr= [${private_subnet_cidr}]
+export private_subnet_cidr= (declare -p private_subnet_cidr)
 printenv private_subnet_cidr
 
 export bastion_instance_type= ${bastion_instance_type}
